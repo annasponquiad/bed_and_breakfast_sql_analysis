@@ -70,3 +70,18 @@ This was a useful reminder that a query running without errors doesn't necessari
 
 Overall, this project helped me become more confident in building a database independently, understanding table relationships, troubleshooting SQL and translating business questions into queries.
 
+## How to Run the Project
+
+To recreate the database, you will need MySQL and MySQL Workbench (or another MySQL-compatible SQL editor).
+
+1. Download or clone this repository.
+2. Open MySQL Workbench and connect to your MySQL server.
+3. Run `bandb_schema.sql` to create the database and its tables.
+4. Run `bandb_data.sql` to populate the tables with sample data.
+5. Run `bandb_analysis.sql` to execute the four analytical queries.
+
+The scripts should be run in this order, using a fresh database to avoid duplicate records or conflicts with existing tables.
+
+The repository also includes the EER diagram showing the database structure and relationships.
+
+**Note:** All guest information and bookings are fictional and were created for learning purposes.

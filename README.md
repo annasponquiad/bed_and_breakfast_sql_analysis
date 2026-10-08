@@ -46,6 +46,16 @@ To answer these questions, I used SQL techniques including joins, filtering with
 
 The analysis helped me practise turning business questions into SQL queries and presenting the results in a way that would be useful to a business owner.
 
+## Skills Practised
+
+- **Database design and data modelling:** Creating an EER diagram, identifying table relationships and using primary and foreign keys.
+- **MySQL:** Creating tables, defining constraints and populating a relational database.
+- **SQL querying:** SELECT, WHERE, JOIN, GROUP BY, HAVING and ORDER BY.
+- **Data aggregation and calculations:** COUNT, SUM, DATEDIFF and calculated fields.
+- **Data validation and troubleshooting:** Investigating unexpected results, correcting queries and testing the database from scratch.
+- **Business analysis and reporting:** Translating business questions into SQL queries and communicating findings clearly.
+- **Tools:** MySQL Workbench and GitHub.
+  
 ## Challenges and Learning
 
 The biggest challenge for me was designing and modelling the database from scratch. Unlike my first SQL project, where I had a guided structure to follow, this time I needed to decide which tables were necessary and how they should relate to each other.

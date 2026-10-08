@@ -46,6 +46,17 @@ To answer these questions, I used SQL techniques including joins, filtering with
 
 The analysis helped me practise turning business questions into SQL queries and presenting the results in a way that would be useful to a business owner.
 
+## Key Findings
+
+The SQL queries revealed a few interesting things about the B&B's bookings:
+
+- **Most valuable room:** Room 104 generated the highest total accommodation booking value at £945.
+- **Outstanding payments:** Five bookings had outstanding accommodation payments. The largest amounts were £525 and £520.
+- **Guest booking value:** Cat Chat and Etc Ekta both had £780 in total accommodation bookings, but Cat Chat made two bookings while Etc Ekta made only one.
+- **Returning guests:** Four of the six guests had made more than one booking, although booking frequency did not always correspond to higher total booking values.
+
+These findings helped me understand the importance of looking beyond the numbers. For example, while Cat Chat and Etc Ekta had the same total booking value, Etc Ekta had a higher average value per booking. This doesn't necessarily make one customer more valuable overall, but it shows how different ways of measuring customer value can tell different stories.
+
 ## Skills Practised
 
 - **Database design and data modelling:** Creating an EER diagram, identifying table relationships and using primary and foreign keys.

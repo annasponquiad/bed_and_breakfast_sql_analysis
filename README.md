@@ -15,21 +15,21 @@ The project was built using MySQL and MySQL Workbench.
 
 ## Database Structure
 
-The database contains three related tables:
+I designed the database around three tables:
 
-- **guest** – Stores guest details, including contact information and VIP status.
-- **rooms** – Stores the seven available rooms, their room numbers and categories.
-- **bookings** – Records each reservation, linking guests to rooms and storing stay dates, accommodation rates, parking requests and payment information.
+- **guest** – Contains information about each guest, including their contact details and VIP status.
+- **rooms** – Contains the seven rooms available at the B&B and their categories.
+- **bookings** – Connects guests to their reservations and records the dates, prices, parking requests and payment details.
 
-The tables are connected through primary and foreign keys, allowing a guest to make multiple bookings and a room to be booked multiple times.
+I used primary and foreign keys to connect the tables, so that guests can make multiple bookings and rooms can be booked by different guests over time.
 
-I also included constraints to help maintain data integrity, such as unique guest email addresses and room numbers, permitted payment statuses and a rule ensuring that check-out dates are later than check-in dates.
+I also added constraints to prevent certain errors, such as duplicate email addresses or room numbers, invalid payment statuses and check-out dates that come before check-in dates.
 
-Accommodation and parking rates are stored in the bookings table so that each reservation retains the price agreed at the time, even if room rates change later.
+One decision I made was to store the nightly rates in the bookings table rather than the rooms table. This means that if the B&B changes its prices, previous bookings will still show the rates originally agreed.
 
 ### Entity Relationship Diagram
 
-The EER diagram below illustrates the database structure and relationships.
+This is the EER diagram I created to plan the database and its relationships.
 
 ![B&B Entity Relationship Diagram](bandb_EER_diagram.png)
 

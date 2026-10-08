@@ -45,3 +45,18 @@ After creating and populating the database, I worked through four business quest
 To answer these questions, I used SQL techniques including joins, filtering with WHERE, aggregation with COUNT and SUM, GROUP BY, HAVING, ORDER BY and calculated fields using DATEDIFF.
 
 The analysis helped me practise turning business questions into SQL queries and presenting the results in a way that would be useful to a business owner.
+
+## Challenges and Learning
+
+The biggest challenge for me was designing and modelling the database from scratch. Unlike my first SQL project, where I had a guided structure to follow, this time I needed to decide which tables were necessary and how they should relate to each other.
+
+Understanding the relationships was particularly tricky. I initially found myself overcomplicating the design with unnecessary bridge tables, before learning to step back and consider how the B&B would actually operate.
+
+Once the database was built, I really enjoyed writing the queries and using them to answer the owner's questions.
+
+One interesting problem came up when I was calculating accommodation values. My first query ran successfully, but the results were much higher than expected. After investigating, I realised I had been subtracting dates directly instead of calculating the number of nights between them. I corrected this using DATEDIFF().
+
+This was a useful reminder that a query running without errors doesn't necessarily mean the results are correct, and that it's important to check whether the numbers actually make sense.
+
+Overall, this project helped me become more confident in building a database independently, understanding table relationships, troubleshooting SQL and translating business questions into queries.
+
